@@ -1,0 +1,93 @@
+table {
+/* margin: auto;*/
+    padding: 15px;
+    border-spacing: 10px;
+    border: solid 5px darkgrey;
+    background-image: url(img/bikini.png);
+}
+
+td {
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    border: solid 2px darkgrey;
+    text-align: center;
+}
+
+/*COULEUR DES NOMBRES*/
+td[nbr="0"]{
+    background-color: antiquewhite;
+}
+td[nbr="2"]{
+    background-color: #82CAFF;
+}
+td[nbr="4"]{
+    background-color: #5CB3FF;
+}
+td[nbr="8"]{
+    background-color: #3BB9FF;
+}
+td[nbr="16"]{
+    background-color: #38ACEC;
+}
+td[nbr="32"]{
+    background-color: #6698FF;
+}
+td[nbr="64"]{
+     background-color: #1589FF;
+ }
+td[nbr="128"]{
+    background-color: #306EFF;
+}
+td[nbr="256"]{
+    background-color: #2B65EC;
+}
+td[nbr="512"]{
+    background-color: #0041C2;
+}
+td[nbr="1024"]{
+     background-color: #0020C2;
+ }
+td[nbr="2048"]{
+    background-color: #2B3856;
+}
+
+.Games{
+    /*display: table-row-group;*/
+margin: 100px;
+}
+
+
+
+html{
+    background-image: url(img/palmier.png);
+}
+
+
+button {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px ;
+
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {opacity: 1}
+
+.box_points{
+    margin-left: 500px;
+
+}
